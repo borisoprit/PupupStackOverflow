@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage
+    x:Class="PupupStackOverflow.Popup"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <StackLayout
+        Margin="0"
+        Padding="0"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+        <Frame
+            Padding="15"
+            HeightRequest="220"
+            WidthRequest="270">
+            <StackLayout>
+                <Image
+                    HeightRequest="80"
+                    Source="Stackoverflow"
+                    WidthRequest="70" />
+                <Label
+                    FontSize="Medium"
+                    Text="This is an Example"
+                    TextColor="#1094a1" />
+                <!--<Entry Placeholder="Write your name" />-->
+                <Label
+                    FontSize="Medium"
+                    Text="Write your own text"
+                    TextColor="#1094a1" />
+                <!--<Entry Placeholder="Write your last name" />-->
+                <Button
+                    BackgroundColor="#1094a1"
+                    HeightRequest="35"
+                    Text="Cool"
+                    TextColor="White" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</popup:PopupPage>
